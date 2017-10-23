@@ -2,11 +2,16 @@ form {
     padding: 1rem 0;
 }
 
-.input--email {
+.input--text {
     width: 200px;
     margin-top: 5px;
 }
 
+.label--text {
+    display: block;
+}
+
 .form-check {
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

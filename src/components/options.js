@@ -20,10 +20,10 @@ class Options extends Component {
                 <div className="form-check">
                     <label className="form-check-label">
                         <input className="form-check-input" type="radio" value="message1" checked={this.state.selectedOption === 'message1'} onChange={this.handleOptionChange} />
-                        First Message
+                        I won't be in today due to sickness
                     </label>
                 </div>
-                <div className="form-check">
+                {/* <div className="form-check">
                     <label className="form-check-label">
                         <input className="form-check-input" type="radio" value="message2" checked={this.state.selectedOption === 'message2'} onChange={this.handleOptionChange} />
                         Second Message
@@ -34,7 +34,7 @@ class Options extends Component {
                         <input className="form-check-input" type="radio" value="message3" checked={this.state.selectedOption === 'message3'} onChange={this.handleOptionChange} />
                         Third Message
                     </label>
-                </div>
+                </div> */}
             </fieldset>
         )
     }
