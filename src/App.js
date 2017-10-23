@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import InputForm from './components/form.js';
 import './css/App.css';
 import './css/bootstrap.css';
 import './css/bootstrap-grid.css';
@@ -18,7 +19,7 @@ class App extends Component {
                 </div>
               </header>
               <main>
-                
+                <InputForm />
               </main>
             </div>
           </div>
