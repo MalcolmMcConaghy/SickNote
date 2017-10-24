@@ -12,11 +12,15 @@ class InputForm extends Component {
                 <Options />
                 <label className="label--text">
                     Your Email Address:<br />
-                    <input className="input input--text" type="email" name="emailFrom" placeholder="Your Email address" />
+                    <input className="input input--text" type="email" name="senderEmail" placeholder="Your Email" />
                 </label>
                 <label className="label--text">
-                    Your Email Password:<br />
-                    <input className="input input--text" type="password" name="emailPass" placeholder="Password" />
+                    Sender Name:<br />
+                    <input className="input input--text" type="text" name="senderName" placeholder="Full Name" />
+                </label>
+                <label className="label--text">
+                    Subject:<br />
+                    <input className="input input--text" type="text" name="senderSubject" placeholder="Email Subject Line" />
                 </label>
             </form>
         )
