@@ -18,7 +18,7 @@ class App extends Component {
                   For when you're too sick to even email
                 </div>
               </header>
-              <main>
+              <main className="row">
                 <InputForm />
               </main>
             </div>

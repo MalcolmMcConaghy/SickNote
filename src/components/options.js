@@ -8,6 +8,7 @@ class Options extends Component {
         this.handleOptionChange = this.handleOptionChange.bind(this);
     }
 
+    //function to handle changing selected radio button
     handleOptionChange(changeEvent) {
         this.setState({
            selectedOption: changeEvent.target.value 
@@ -19,7 +20,7 @@ class Options extends Component {
             <fieldset>
                 <div className="form-check">
                     <label className="form-check-label">
-                        <input className="form-check-input" type="radio" value="message1" checked={this.state.selectedOption === 'message1'} onChange={this.handleOptionChange} />
+                        <input className="form-check-input" type="radio" value="I won't be in today due to sickness" checked={this.state.selectedOption === 'message1'} onChange={this.handleOptionChange} />
                         I won't be in today due to sickness
                     </label>
                 </div>
