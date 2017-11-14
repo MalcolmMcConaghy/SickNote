@@ -30,8 +30,8 @@ app.post('/sendmail', cors(corsOptions), function (req, res, next) {
         service: 'hotmail',
         port: 587,
         auth: {
-            user: 'mcconaghym@live.co.uk',
-            pass: 'Malkyway969'
+            user: '',
+            pass: ''
         }
     });
 
